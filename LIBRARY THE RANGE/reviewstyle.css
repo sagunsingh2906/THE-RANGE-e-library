@@ -1,0 +1,91 @@
+*{
+    background-color: black;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    font-family: cursive;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: inline-block;
+    height: 450px;
+    width: 500px;
+    background-color: #598392;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 4px solid #085071;
+    padding-left: 10px;
+    background-image: url(revbg.jpg);
+    background-size: cover;
+}
+
+.bookrec{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#rec{
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 430px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 2px solid black;
+}
+
+.sitereview{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#siterev{
+    height: 210px;
+    width: 430px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+button{
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    color: wheat;
+    font-size: 20px;
+    background-color: #085071;
+}
